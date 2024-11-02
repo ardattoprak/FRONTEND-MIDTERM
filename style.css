@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fab1a0;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.welcome-section {
+    text-align: center; 
+}
+
+aside.left-panel {
+    width: 25%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-right: 1px solid #ccc;
+}
+
+.left-panel ul {
+    padding: 0;
+}
+
+.left-panel ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+main {
+    width: 50%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-right: 1px solid #ccc;
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+aside.right-panel {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 30px;
+    background-color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fab1a0;
+    border-top: 1px solid #ccc;
+}
+
+.footer-links {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.footer-links a {
+    text-decoration: none; 
+    color: #fff;
+    font-size: 18px;
+}
+
+.user-info1, .user-info2, .user-info3 {
+    border: 2px solid #000;
+    border-radius: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: 5px 5px 12px #0303;
+}
