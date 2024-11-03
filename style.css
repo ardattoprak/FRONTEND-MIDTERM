@@ -7,14 +7,14 @@ body {
     color: #333;
 }
 
-header {
+header { /* Header style: Logo, bank name and slogan */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     padding: 20px;
     background-color: #fab1a0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;  /* add thin bottom border */
 }
 
 .logo img{
@@ -22,6 +22,7 @@ header {
     border-radius: 20px;
 }
 
+/* Main container holding the left, main, and right sections */
 .container {
     display: flex;
     align-items: center;
@@ -36,7 +37,7 @@ aside.left-panel {
     width: 25%;
     background-color: #ffffff;
     padding: 30px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc; /* add thin right border */
 }
 
 .left-panel ul {
@@ -45,8 +46,8 @@ aside.left-panel {
 
 .left-panel ul li {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+    justify-content: space-between; /* Adds space between content and prices */
+    padding: 10px 0; /* Adds padding above and below each item */
     border-bottom: 1px solid #eee;
 }
 
@@ -54,7 +55,7 @@ main {
     width: 50%;
     padding: 30px;
     background-color: #ffffff;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc; /* Add thin right border */
 }
 
 main h2 {
@@ -66,7 +67,7 @@ aside.right-panel {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 60px 30px;
+    padding: 60px 30px; /* Add padding at top and sides */
     background-color: #ffffff;
 }
 
@@ -75,25 +76,25 @@ footer {
     text-align: center;
     padding: 20px 0;
     background-color: #fab1a0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc;  
 }
 
 .footer-links {
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /* Distributes links evenly across footer */
 
 }
 
 .footer-links a {
-    text-decoration: none; 
+    text-decoration: none;  /* Removes underline from links */
     color: #fff;
     font-size: 18px;
 }
 
 .user-info1, .user-info2, .user-info3 {
-    border: 2px solid #000;
-    border-radius: 50px;
+    border: 2px solid #000;  /* Adds a black border around cards */
+    border-radius: 50px; /* Rounds the corners */
     background-color: #f4f4f4;
     text-align: center;
     box-shadow: 5px 5px 12px #0303;
